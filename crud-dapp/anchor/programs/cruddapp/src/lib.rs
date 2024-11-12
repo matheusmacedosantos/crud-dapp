@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("AsjZ3kWAUSQRNt2pZVeJkywhZ6gpLpHZmJjduPmKZDZZ");
+declare_id!("C7eJ3PBVDLfB7wFh57n2ntNDae5MFyKpsTfAXN84RKEE");
 
 #[program]
 pub mod cruddapp {
@@ -20,7 +20,7 @@ pub mod cruddapp {
         Ok(())
     }
 
-    pub fn delete_journal_entry(ctx: Context<DeleteEntry>, _title: String) -> Result<()> {
+    pub fn delete_journal_entry(_ctx: Context<DeleteEntry>, _title: String) -> Result<()> {
         Ok(())
     }
 }
